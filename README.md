@@ -23,6 +23,12 @@ kurtosis clean --all
 kurtosis run --enclave cdk-v1 --args-file params.yml --image-download always .
 ```
 
+Was getting this error
+![Screenshot (230)](https://github.com/user-attachments/assets/7504b0a1-29a6-405b-a151-da8397b4f758)
+
+![Screenshot (231)](https://github.com/user-attachments/assets/d9760939-6218-41a3-90fc-3bb5a88b7a2a)
+
+
 The command above deploys a CDK stack using [cdk-erigon](https://github.com/0xPolygonHermez/cdk-erigon) as a sequencer.
 
 Let's do a simple L2 RPC test call.
